@@ -47,15 +47,14 @@ export function SiteFooter() {
     <footer className="border-t border-white/10 bg-primary text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-12 px-4 py-14 sm:grid-cols-2 md:px-8 lg:grid-cols-[1.4fr_1fr_1fr]">
         <div className="min-w-0">
-          <div className="flex items-center gap-3">
+          <div className="inline-block rounded-md bg-white px-3 py-2">
             <img
               src="/images/logo.webp"
-              alt=""
-              width={395}
-              height={420}
-              className="h-10 w-auto flex-shrink-0"
+              alt="MIR Appliance Repair"
+              width={640}
+              height={323}
+              className="h-12 w-auto"
             />
-            <span className="text-sm font-semibold">Best Sub-Zero &amp; Viking Service</span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-primary-foreground/70">
             Honest, expert repair for Sub-Zero, Viking, Wolf and other premium residential kitchen
@@ -248,8 +247,8 @@ export function SiteFooter() {
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-7xl px-4 py-5 text-xs text-primary-foreground/60 md:px-8">
           <span>
-            © {year} Best Sub-Zero &amp; Viking Service. All rights reserved. Independent appliance
-            repair service. Not affiliated with Sub-Zero Group, Inc. or Viking Range, LLC.
+            © {year} MIR Appliance Repair. All rights reserved. Independent appliance repair
+            service. Not affiliated with Sub-Zero Group, Inc. or Viking Range, LLC.
           </span>
         </div>
       </div>

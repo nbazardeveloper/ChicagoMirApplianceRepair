@@ -16,7 +16,7 @@ export const Route = createFileRoute("/$")({
   },
   head: () => ({
     meta: [
-      { title: "Page Not Found | Best Sub-Zero & Viking Service" },
+      { title: "Page Not Found | MIR Appliance Repair" },
       { name: "robots", content: "noindex, nofollow" },
     ],
   }),

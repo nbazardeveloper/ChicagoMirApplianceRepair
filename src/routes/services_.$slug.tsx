@@ -80,7 +80,7 @@ export const Route = createFileRoute("/services_/$slug")({
             provider: {
               "@type": "LocalBusiness",
               "@id": ORG_ID,
-              name: "Best Sub-Zero & Viking Service",
+              name: "MIR Appliance Repair",
               telephone: "+1-000-000-0000",
               address: LOCAL_BUSINESS_ADDRESS,
             },
@@ -180,7 +180,7 @@ function ServiceDetail() {
               aspect="video"
               label={service.title}
               src={service.image_url}
-              alt={`${service.title} — appliance repair by Best Sub-Zero & Viking Service`}
+              alt={`${service.title} — appliance repair by MIR Appliance Repair`}
               priority
             />
           </div>

@@ -44,17 +44,14 @@ export const Route = createFileRoute("/about")({
         content:
           "Founded to give homeowners honest, professional, long-lasting repair for premium kitchen appliances. Accurate diagnostics and transparent pricing.",
       },
-      { property: "og:title", content: "About Best Sub-Zero & Viking Service" },
+      { property: "og:title", content: "About MIR Appliance Repair" },
       {
         property: "og:description",
         content: "Premium appliance repair across Chicago.",
       },
       { property: "og:url", content: absUrl("/about") },
       { property: "og:image", content: DEFAULT_OG_IMAGE },
-      ...twitterMeta(
-        "About Best Sub-Zero & Viking Service",
-        "Premium appliance repair across Chicago.",
-      ),
+      ...twitterMeta("About MIR Appliance Repair", "Premium appliance repair across Chicago."),
     ],
     links: [{ rel: "canonical", href: absUrl("/about") }],
   }),

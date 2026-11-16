@@ -4,11 +4,11 @@ import { absUrl, DEFAULT_OG_IMAGE, twitterMeta } from "@/lib/seo";
 export const Route = createFileRoute("/privacy-policy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy | Best Sub-Zero & Viking Service Chicago" },
+      { title: "Privacy Policy | MIR Appliance Repair Chicago" },
       {
         name: "description",
         content:
-          "How Best Sub-Zero & Viking Service collects, uses and protects information submitted through this website when you request an appliance repair estimate.",
+          "How MIR Appliance Repair collects, uses and protects information submitted through this website when you request an appliance repair estimate.",
       },
       { property: "og:title", content: "Privacy Policy" },
       { property: "og:description", content: "Our privacy policy." },
@@ -76,9 +76,7 @@ function Privacy() {
         </p>
 
         <h2>Contact</h2>
-        <p>
-          Best Sub-Zero &amp; Viking Service — +1 (000) 000-0000 — info@subzerovikingchicago.com.
-        </p>
+        <p>MIR Appliance Repair — +1 (000) 000-0000 — info@subzerovikingchicago.com.</p>
       </div>
     </div>
   );

@@ -49,10 +49,10 @@ export const Route = createFileRoute("/post/$slug")({
             ...(post.hero_image ? { image: post.hero_image } : {}),
             datePublished: post.published_at,
             dateModified: post.published_at,
-            author: { "@type": "Organization", name: "Best Sub-Zero & Viking Service" },
+            author: { "@type": "Organization", name: "MIR Appliance Repair" },
             publisher: {
               "@type": "Organization",
-              name: "Best Sub-Zero & Viking Service",
+              name: "MIR Appliance Repair",
               logo: { "@type": "ImageObject", url: "/favicon.ico" },
             },
             mainEntityOfPage: { "@type": "WebPage", "@id": `/post/${post.slug}` },

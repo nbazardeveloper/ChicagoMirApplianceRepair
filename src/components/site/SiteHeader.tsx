@@ -35,13 +35,15 @@ export function SiteHeader() {
             absolutely and pulled above the CTA bar with z-index. */}
         <Link
           to="/"
-          aria-label="Best Sub-Zero & Viking Service — home"
-          className="h-header-logo absolute left-4 top-0 z-30 hidden md:flex md:items-center lg:left-8"
+          aria-label="MIR Appliance Repair — home"
+          className="absolute left-4 top-3 z-30 hidden md:block lg:left-8"
         >
           <img
             src="/images/logo.webp"
-            alt="Best Sub-Zero & Viking Service logo"
-            className="h-full w-auto flex-shrink-0 py-3 drop-shadow-sm"
+            alt="MIR Appliance Repair logo"
+            width={640}
+            height={323}
+            className="h-[88px] w-auto flex-shrink-0"
           />
         </Link>
 
@@ -50,34 +52,31 @@ export function SiteHeader() {
             so it doesn't push the call/menu buttons on the right out of
             view on narrow screens. No aria-label needed: this visible text
             already gives the link its accessible name. */}
-        <Link to="/" className="flex min-w-0 items-center gap-2 md:hidden">
+        <Link
+          to="/"
+          aria-label="MIR Appliance Repair — home"
+          className="flex min-w-0 items-center md:hidden"
+        >
           <img
             src="/images/logo.webp"
-            alt=""
-            width={395}
-            height={420}
-            className="h-12 w-auto flex-shrink-0"
+            alt="MIR Appliance Repair"
+            width={640}
+            height={323}
+            className="h-14 w-auto flex-shrink-0"
           />
-          <span className="flex flex-col leading-tight text-xs font-semibold tracking-tight">
-            <span>Best Sub-Zero &amp;</span>
-            <span>Viking Service</span>
-          </span>
         </Link>
 
         {/* Business name/tagline — pushed right to clear the big logo. Hidden
             once the full nav takes over (xl+) so the 9 nav items get the
             whole row instead of fighting the name text for space. */}
-        <div className="hidden flex-col leading-tight md:ml-40 md:flex lg:ml-44 xl:hidden">
-          <span className="text-base font-semibold tracking-tight">
-            Best Sub-Zero &amp; Viking Service
-          </span>
+        <div className="hidden flex-col leading-tight md:ml-48 md:flex lg:ml-52 xl:hidden">
           <span className="text-sm text-muted-foreground">Premium appliance repair · Chicago</span>
         </div>
 
         {/* Wrapper takes the remaining row width after the logo (xl:ml-44)
             and centers the nav within that space, rather than the nav
             hugging the logo's edge. */}
-        <div className="hidden xl:ml-44 xl:flex xl:flex-1 xl:justify-center">
+        <div className="hidden xl:ml-52 xl:flex xl:flex-1 xl:justify-center">
           <nav aria-label="Primary" className="flex items-center gap-5 text-base font-semibold">
             {nav.map((n) => (
               <Link

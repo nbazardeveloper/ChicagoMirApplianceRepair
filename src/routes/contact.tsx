@@ -28,18 +28,18 @@ const AREAS = [
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us | Best Sub-Zero & Viking Service Chicago" },
+      { title: "Contact Us | MIR Appliance Repair Chicago" },
       {
         name: "description",
         content:
           "Call (000) 000-0000 or book online for premium Sub-Zero, Viking and Wolf appliance repair across Chicago, Lincoln Park, Gold Coast and North Shore.",
       },
-      { property: "og:title", content: "Contact Best Sub-Zero & Viking Service" },
+      { property: "og:title", content: "Contact MIR Appliance Repair" },
       { property: "og:description", content: "Get in touch to schedule a diagnostic or repair." },
       { property: "og:url", content: absUrl("/contact") },
       { property: "og:image", content: DEFAULT_OG_IMAGE },
       ...twitterMeta(
-        "Contact Best Sub-Zero & Viking Service",
+        "Contact MIR Appliance Repair",
         "Get in touch to schedule a diagnostic or repair.",
       ),
     ],
@@ -51,7 +51,7 @@ export const Route = createFileRoute("/contact")({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "@id": ORG_ID,
-          name: "Best Sub-Zero & Viking Service",
+          name: "MIR Appliance Repair",
           telephone: "+1-000-000-0000",
           email: "info@subzerovikingchicago.com",
           url: absUrl("/"),

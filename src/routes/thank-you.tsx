@@ -18,7 +18,7 @@ declare global {
 export const Route = createFileRoute("/thank-you")({
   head: () => ({
     meta: [
-      { title: "Thank You | Best Sub-Zero & Viking Service Chicago" },
+      { title: "Thank You | MIR Appliance Repair Chicago" },
       { name: "robots", content: "noindex, nofollow" },
     ],
     links: [{ rel: "canonical", href: absUrl("/thank-you") }],

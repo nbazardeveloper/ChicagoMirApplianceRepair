@@ -34,7 +34,7 @@ export const GOOGLE_PROFILE_URL = "";
 // TODO: social_links is still empty — add the real Chicago Google
 // Reviews/Yelp/Instagram/Facebook/YouTube URLs once you have them.
 export const siteSettings: SiteSettings = {
-  business_name: "Best Sub-Zero & Viking Service",
+  business_name: "MIR Appliance Repair",
   phone: "+1 (000) 000-0000",
   email: "info@subzerovikingchicago.com",
   address: null,

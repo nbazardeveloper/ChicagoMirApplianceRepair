@@ -10,6 +10,6 @@
 //
 // CLI deploy instead: npm run build && npx wrangler pages deploy dist
 {
-  "name": "best-sub-zero-viking-chicago",
+  "name": "mir-appliance-repair-chicago",
   "pages_build_output_dir": "dist"
 }

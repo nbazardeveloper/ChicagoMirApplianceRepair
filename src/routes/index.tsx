@@ -113,13 +113,13 @@ export const Route = createFileRoute("/")({
 
     return {
       meta: [
-        { title: "Best Sub-Zero & Viking Service | Chicago Appliance Repair" },
+        { title: "MIR Appliance Repair | Sub-Zero, Wolf & Viking Repair in Chicago" },
         {
           name: "description",
           content:
             "Premium repair for Sub-Zero, Viking, Wolf and other high-end kitchen appliances across Chicago, Lincoln Park, Evanston and Gold Coast. Call today.",
         },
-        { property: "og:title", content: "Best Sub-Zero & Viking Service" },
+        { property: "og:title", content: "MIR Appliance Repair" },
         {
           property: "og:description",
           content:
@@ -131,7 +131,7 @@ export const Route = createFileRoute("/")({
           content: "https://subzerovikingchicago.com/images/hero.webp",
         },
         ...twitterMeta(
-          "Best Sub-Zero & Viking Service",
+          "MIR Appliance Repair",
           "Honest, expert repair of premium residential kitchen appliances across Chicago.",
           "https://subzerovikingchicago.com/images/hero.webp",
         ),
@@ -144,7 +144,7 @@ export const Route = createFileRoute("/")({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": ORG_ID,
-            name: "Best Sub-Zero & Viking Service",
+            name: "MIR Appliance Repair",
             telephone: "+1-000-000-0000",
             email: "info@subzerovikingchicago.com",
             url: absUrl("/"),

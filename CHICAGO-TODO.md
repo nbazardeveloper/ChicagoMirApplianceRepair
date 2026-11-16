@@ -1,4 +1,7 @@
-# Chicago copy — what still needs real Chicago data
+# Chicago copy — MIR Appliance Repair
+
+Brand is already switched to **MIR Appliance Repair** (name + logo cropped from the brand image: `public/images/logo.webp`, favicons regenerated). The logo is a crop of a screenshot (~640 px wide), so ask for the original vector/PNG file when possible.
+The brand image shows the vanity number `(888) MIR-APPLIANCE`, but it is too long to dial as-is — use the real 10-digit number.
 
 This site was copied from the Charlotte project. City names, neighborhoods and
 IL/Illinois are already replaced; everything business-specific was blanked out

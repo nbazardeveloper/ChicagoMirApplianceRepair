@@ -193,12 +193,11 @@ function RangeStoveRepairLanding() {
           <Link to="/" className="flex items-center gap-3">
             <img
               src="/images/logo.webp"
-              alt="Best Sub-Zero & Viking Service"
-              className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
+              alt="MIR Appliance Repair"
+              width={640}
+              height={323}
+              className="h-12 w-auto flex-shrink-0"
             />
-            <span className="font-display text-sm font-bold leading-tight sm:text-base">
-              Best Sub-Zero &amp; Viking Service
-            </span>
           </Link>
           <a href={telHref}>
             <Button size="sm" className="gap-2">
@@ -477,8 +476,8 @@ function RangeStoveRepairLanding() {
 
       <footer className="border-t border-border">
         <div className="mx-auto max-w-5xl px-4 py-6 text-center text-xs text-muted-foreground md:px-8">
-          © {new Date().getFullYear()} Best Sub-Zero &amp; Viking Service. Independent appliance
-          repair service. Not affiliated with the manufacturers of the brands listed above.
+          © {new Date().getFullYear()} MIR Appliance Repair. Independent appliance repair service.
+          Not affiliated with the manufacturers of the brands listed above.
         </div>
       </footer>
 

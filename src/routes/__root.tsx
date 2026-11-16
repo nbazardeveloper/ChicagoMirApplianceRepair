@@ -92,14 +92,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Best Sub-Zero & Viking Service | Chicago Appliance Repair" },
+      { title: "MIR Appliance Repair | Sub-Zero, Wolf & Viking Repair in Chicago" },
       {
         name: "description",
         content:
           "Premium residential appliance repair in Chicago — Sub-Zero, Viking, Wolf, Thermador, Bosch and Dacor. Honest, transparent, expert service.",
       },
-      { name: "author", content: "Best Sub-Zero & Viking Service" },
-      { property: "og:site_name", content: "Best Sub-Zero & Viking Service" },
+      { name: "author", content: "MIR Appliance Repair" },
+      { property: "og:site_name", content: "MIR Appliance Repair" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "en_US" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -107,7 +107,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       // override these via their own head()'s twitterMeta() call.
       {
         name: "twitter:title",
-        content: "Best Sub-Zero & Viking Service | Chicago Appliance Repair",
+        content: "MIR Appliance Repair | Sub-Zero, Wolf & Viking Repair in Chicago",
       },
       {
         name: "twitter:description",
@@ -154,7 +154,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@context": "https://schema.org",
           "@type": "Organization",
           "@id": ORG_ID,
-          name: "Best Sub-Zero & Viking Service",
+          name: "MIR Appliance Repair",
           url: absUrl("/"),
           logo: absUrl("/images/logo.webp"),
           telephone: "+1-000-000-0000",

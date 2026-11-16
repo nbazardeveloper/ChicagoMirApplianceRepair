@@ -3,7 +3,7 @@
 // in the 150–160 char range, per project SEO standards, even for dynamic
 // (DB-driven) content such as individual service pages.
 
-const SITE_NAME = "Best Sub-Zero & Viking Service";
+const SITE_NAME = "MIR Appliance Repair";
 const SITE_URL = "https://subzerovikingchicago.com";
 
 /**
