@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://subzerovikingchicago.com/sitemap.xml
