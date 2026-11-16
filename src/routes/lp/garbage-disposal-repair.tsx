@@ -176,7 +176,7 @@ function GarbageDisposalRepairLanding() {
     queryKey: ["site-settings"],
     queryFn: () => getSiteSettings(),
   });
-  const phone = settings?.phone ?? "+1 (000) 000-0000";
+  const phone = settings?.phone ?? "+1 (888) 647-2775";
   const telHref = `tel:${phone.replace(/[^+\d]/g, "")}`;
   const rating = settings?.review_rating;
 

@@ -145,7 +145,7 @@ export const Route = createFileRoute("/")({
             "@type": "LocalBusiness",
             "@id": ORG_ID,
             name: "MIR Appliance Repair",
-            telephone: "+1-000-000-0000",
+            telephone: "+1-888-647-2775",
             email: "info@subzerovikingchicago.com",
             url: absUrl("/"),
             image: "https://subzerovikingchicago.com/images/hero.webp",
@@ -185,7 +185,7 @@ function Home() {
     queryFn: () => listFeaturedProjects(),
   });
 
-  const phone = settings?.phone ?? "+1 (000) 000-0000";
+  const phone = settings?.phone ?? "+1 (888) 647-2775";
   const telHref = `tel:${phone.replace(/[^+\d]/g, "")}`;
 
   return (

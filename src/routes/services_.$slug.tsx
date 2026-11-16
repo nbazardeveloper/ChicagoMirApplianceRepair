@@ -81,7 +81,7 @@ export const Route = createFileRoute("/services_/$slug")({
               "@type": "LocalBusiness",
               "@id": ORG_ID,
               name: "MIR Appliance Repair",
-              telephone: "+1-000-000-0000",
+              telephone: "+1-888-647-2775",
               address: LOCAL_BUSINESS_ADDRESS,
             },
             areaServed: AREAS,
@@ -127,7 +127,7 @@ function ServiceDetail() {
   const related = all
     .filter((s) => s.slug !== service.slug && s.category === service.category)
     .slice(0, 3);
-  const phone = settings?.phone ?? "+1 (000) 000-0000";
+  const phone = settings?.phone ?? "+1 (888) 647-2775";
   const telHref = `tel:${phone.replace(/[^+\d]/g, "")}`;
 
   // Every service title ends in its category keyword ("... Repair" /

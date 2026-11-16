@@ -35,7 +35,7 @@ export const GOOGLE_PROFILE_URL = "";
 // Reviews/Yelp/Instagram/Facebook/YouTube URLs once you have them.
 export const siteSettings: SiteSettings = {
   business_name: "MIR Appliance Repair",
-  phone: "+1 (000) 000-0000",
+  phone: "+1 (888) 647-2775",
   email: "info@subzerovikingchicago.com",
   address: null,
   hours: "Mon–Sat: 8:00 AM – 7:00 PM",

@@ -33,7 +33,7 @@ export const Route = createFileRoute("/thank-you")({
 
 function ThankYou() {
   const { data: s } = useQuery({ queryKey: ["site-settings"], queryFn: () => getSiteSettings() });
-  const phone = s?.phone ?? "+1 (000) 000-0000";
+  const phone = s?.phone ?? "+1 (888) 647-2775";
   const digits = phone.replace(/[^+\d]/g, "");
 
   // Fired from an effect rather than a <head> script so it also runs when
