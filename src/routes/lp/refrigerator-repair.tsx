@@ -255,7 +255,7 @@ function RefrigeratorRepairLanding() {
     queryKey: ["site-settings"],
     queryFn: () => getSiteSettings(),
   });
-  const phone = settings?.phone ?? "+1 (888) 647-2775";
+  const phone = settings?.phone ?? "+1 (872) 291-4888";
   const telHref = `tel:${phone.replace(/[^+\d]/g, "")}`;
   const rating = settings?.review_rating;
   const reviewCount = settings?.review_count;

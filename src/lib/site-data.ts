@@ -14,7 +14,7 @@ import { BLOG_POSTS } from "./blog-data";
 // /contact) so the booking flow can redirect to its own "Thank you" page and
 // conversions can be tracked there. Every "Book online" / "Request service"
 // button on the site links straight here.
-export const BOOKING_URL = "/contact"; // TODO: replace with the Chicago booking page URL
+export const BOOKING_URL = "https://api.prosbuddy.com/widget/bookings/chicago-booking-best-sub-zero";
 
 // Google My Maps map of completed jobs across the Chicago area.
 // TODO: create a Google My Maps map of Chicago jobs and put its id here; map sections stay hidden while empty.
@@ -35,7 +35,7 @@ export const GOOGLE_PROFILE_URL = "";
 // Reviews/Yelp/Instagram/Facebook/YouTube URLs once you have them.
 export const siteSettings: SiteSettings = {
   business_name: "MIR Appliance Repair",
-  phone: "+1 (888) 647-2775",
+  phone: "+1 (872) 291-4888",
   email: "info@subzerovikingchicago.com",
   address: null,
   hours: "Mon–Sat: 8:00 AM – 7:00 PM",

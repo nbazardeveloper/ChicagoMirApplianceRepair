@@ -32,7 +32,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Call (888) 647-2775 or book online for premium Sub-Zero, Viking and Wolf appliance repair across Chicago, Lincoln Park, Gold Coast and North Shore.",
+          "Call (872) 291-4888 or book online for premium Sub-Zero, Viking and Wolf appliance repair across Chicago, Lincoln Park, Gold Coast and North Shore.",
       },
       { property: "og:title", content: "Contact MIR Appliance Repair" },
       { property: "og:description", content: "Get in touch to schedule a diagnostic or repair." },
@@ -52,7 +52,7 @@ export const Route = createFileRoute("/contact")({
           "@type": "LocalBusiness",
           "@id": ORG_ID,
           name: "MIR Appliance Repair",
-          telephone: "+1-888-647-2775",
+          telephone: "+1-872-291-4888",
           email: "info@subzerovikingchicago.com",
           url: absUrl("/"),
           priceRange: "$$",
@@ -73,7 +73,7 @@ export const Route = createFileRoute("/contact")({
 
 function Contact() {
   const { data: s } = useQuery({ queryKey: ["site-settings"], queryFn: () => getSiteSettings() });
-  const phone = s?.phone ?? "+1 (888) 647-2775";
+  const phone = s?.phone ?? "+1 (872) 291-4888";
   const digits = phone.replace(/[^+\d]/g, "");
 
   return (

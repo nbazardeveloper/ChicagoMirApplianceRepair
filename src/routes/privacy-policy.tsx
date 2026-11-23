@@ -76,7 +76,7 @@ function Privacy() {
         </p>
 
         <h2>Contact</h2>
-        <p>MIR Appliance Repair — +1 (888) 647-2775 — info@subzerovikingchicago.com.</p>
+        <p>MIR Appliance Repair — +1 (872) 291-4888 — info@subzerovikingchicago.com.</p>
       </div>
     </div>
   );

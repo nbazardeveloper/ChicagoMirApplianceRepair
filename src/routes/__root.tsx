@@ -157,7 +157,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "MIR Appliance Repair",
           url: absUrl("/"),
           logo: absUrl("/images/logo.webp"),
-          telephone: "+1-888-647-2775",
+          telephone: "+1-872-291-4888",
           email: "info@subzerovikingchicago.com",
           address: LOCAL_BUSINESS_ADDRESS,
           openingHoursSpecification: LOCAL_BUSINESS_HOURS,

@@ -1,7 +1,7 @@
 # Chicago copy — MIR Appliance Repair
 
 Brand is already switched to **MIR Appliance Repair** (name + logo cropped from the brand image: `public/images/logo.webp`, favicons regenerated). The logo is a crop of a screenshot (~640 px wide), so ask for the original vector/PNG file when possible.
-The brand image shows the vanity number `(888) MIR-APPLIANCE`; the site uses its first 10 digits, 888-647-2775 (carriers ignore the extra letters).
+Phone: +1 (872) 291-4888.
 
 This site was copied from the Charlotte project. City names, neighborhoods and
 IL/Illinois are already replaced; everything business-specific was blanked out
@@ -10,9 +10,9 @@ so nothing points at the Charlotte business by accident.
 | What | Where | Status |
 |---|---|---|
 | Domain (`subzerovikingchicago.com` is a guess) | `src/lib/seo.ts`, `public/robots.txt`, `wrangler.jsonc` name | replace with the real domain |
-| Phone `+1 (888) 647-2775` (from the brand card `(888) MIR-APPLIANCE`) | everywhere | done |
+| Phone `+1 (872) 291-4888` (from the brand card `(888) MIR-APPLIANCE`) | everywhere | done |
 | Email `info@subzerovikingchicago.com` | `src/lib/site-data.ts`, `src/routes/__root.tsx` | placeholder |
-| Booking URL (currently `/contact`) | `BOOKING_URL` in `src/lib/site-data.ts` | Chicago booking page / widget |
+| Booking URL `https://api.prosbuddy.com/widget/bookings/chicago-booking-best-sub-zero` | `BOOKING_URL` in `src/lib/site-data.ts` | done |
 | Google Ads tag + phone-click conversion | `src/routes/__root.tsx` (removed) | add Chicago tag |
 | Thank-you conversion `AW-XXXXXXXXXX/…` | `src/routes/thank-you.tsx` | add Chicago conversion |
 | Chat widget (GoHighLevel) | removed from `__root.tsx` | add Chicago widget if wanted |
