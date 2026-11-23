@@ -140,8 +140,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         crossOrigin: "anonymous",
       },
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
-      { rel: "apple-touch-icon", href: "/favicon-512.png" },
+      { rel: "icon", href: "/favicon.ico?v=2", type: "image/x-icon" },
+      { rel: "apple-touch-icon", href: "/favicon-512.png?v=2" },
     ],
     scripts: [
       // TODO: add the Chicago Google Ads tag (gtag.js) and the phone-click
@@ -156,7 +156,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@id": ORG_ID,
           name: "MIR Appliance Repair",
           url: absUrl("/"),
-          logo: absUrl("/images/logo.webp"),
+          logo: absUrl("/images/logo-mir.webp"),
           telephone: "+1-872-291-4888",
           email: "info@subzerovikingchicago.com",
           address: LOCAL_BUSINESS_ADDRESS,

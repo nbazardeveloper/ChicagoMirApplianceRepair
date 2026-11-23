@@ -49,10 +49,10 @@ export function SiteFooter() {
         <div className="min-w-0">
           <div className="inline-block rounded-md bg-white px-3 py-2">
             <img
-              src="/images/logo.webp"
+              src="/images/logo-mir.webp"
               alt="MIR Appliance Repair"
               width={640}
-              height={323}
+              height={320}
               className="h-12 w-auto"
             />
           </div>

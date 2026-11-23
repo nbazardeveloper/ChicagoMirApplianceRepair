@@ -39,10 +39,10 @@ export function SiteHeader() {
           className="absolute left-4 top-3 z-30 hidden md:block lg:left-8"
         >
           <img
-            src="/images/logo.webp"
+            src="/images/logo-mir.webp"
             alt="MIR Appliance Repair logo"
             width={640}
-            height={323}
+            height={320}
             className="h-[88px] w-auto flex-shrink-0"
           />
         </Link>
@@ -58,10 +58,10 @@ export function SiteHeader() {
           className="flex min-w-0 items-center md:hidden"
         >
           <img
-            src="/images/logo.webp"
+            src="/images/logo-mir.webp"
             alt="MIR Appliance Repair"
             width={640}
-            height={323}
+            height={320}
             className="h-14 w-auto flex-shrink-0"
           />
         </Link>

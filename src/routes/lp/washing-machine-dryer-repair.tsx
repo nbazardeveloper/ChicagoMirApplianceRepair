@@ -185,10 +185,10 @@ function WashingMachineDryerLanding() {
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 md:px-8">
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/images/logo.webp"
+              src="/images/logo-mir.webp"
               alt="MIR Appliance Repair"
               width={640}
-              height={323}
+              height={320}
               className="h-12 w-auto flex-shrink-0"
             />
           </Link>
